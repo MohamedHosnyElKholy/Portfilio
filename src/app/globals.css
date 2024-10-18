@@ -25,3 +25,22 @@ body {
     text-wrap: balance;
   }
 }
+.active {
+  background-color: #ff4757; /* لون خلفية نشط */
+  color: white; /* لون النص النشط */
+  transition: background-color 0.3s ease, color 0.3s ease, padding 0.3s ease; /* تأثير الانتقال */
+  border-radius: 5px; /* إضافة زوايا دائرية */
+  padding: 12px 18px !important; /* حشوة أكبر عند النقر */
+}
+
+.Navbar.Link {
+  padding: 10px 15px; /* حشوة افتراضية */
+  border-radius: 5px; /* زوايا دائرية للروابط */
+  transition: background-color 0.3s ease, color 0.3s ease, padding 0.3s ease; /* تأثير الانتقال */
+}
+
+.Navbar.Link:hover {
+  background-color: rgba(255, 71, 87, 0.7); /* لون خلفية عند التمرير */
+  color: white; /* لون النص عند التمرير */
+  padding: 12px 18px; /* حشوة أكبر عند التمرير */
+}

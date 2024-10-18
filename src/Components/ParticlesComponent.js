@@ -45,7 +45,7 @@ const ParticlesComponent = () => {
           },
           move: {
             enable: true,
-            speed: 6,
+            speed: 3,
             outModes: { default: "bounce" },
           },
           number: {
