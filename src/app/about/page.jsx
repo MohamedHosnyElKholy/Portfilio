@@ -14,7 +14,7 @@ const About = () => {
       <div className="about-content">
         <h1 className="text-3xl font-bold text-center mb-4">About Me</h1>
         <p className="text-gray-700 mb-2">
-          Hello! I'm Mohamed Hosny, a passionate Front-End Developer specializing in React and Next.js.
+          Hello! I&apos;m Mohamed Hosny, a passionate Front-End Developer specializing in React and Next.js.
         </p>
         <p className="text-gray-700 mb-2">
           With a strong foundation in web development, I love building responsive and user-friendly interfaces that enhance user experiences. My goal is to create seamless web applications that not only look great but also perform efficiently.
