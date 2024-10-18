@@ -14,12 +14,11 @@ export default function MyNavbar() {
         <Navbar.Link href="#" active>
           Home
         </Navbar.Link>
-        <Navbar.Link as={Link} href="#">
+        <Navbar.Link as={Link} href="/about">
           About
         </Navbar.Link>
-        <Navbar.Link href="#">Services</Navbar.Link>
-        <Navbar.Link href="#">Pricing</Navbar.Link>
-        <Navbar.Link href="#">Contact</Navbar.Link>
+        <Navbar.Link href="/contact">Contact</Navbar.Link>
+        <Navbar.Link href="/project">Project</Navbar.Link>
       </Navbar.Collapse>
     </Navbar>
   );
