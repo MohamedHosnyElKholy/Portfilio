@@ -1,8 +1,8 @@
 import localFont from "next/font/local";
 import "./globals.css";
-import Navbar from '../app/Navbar/page.jsx';
 import Fotter from '../app/Fotter/page.jsx';
 import { Toaster } from 'react-hot-toast';  
+import MyNavbar from "../Components/MyNavbar";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -27,7 +27,7 @@ export default function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} antialiased flex flex-col min-h-screen`} 
       >
         <Toaster />
-        <Navbar />
+        <MyNavbar />
         <main className="flex-grow">{children}</main>
         <Fotter />
       </body>

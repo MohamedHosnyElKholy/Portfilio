@@ -13,18 +13,22 @@
     "@heroicons/react": "^2.1.5",
     "flowbite-react": "^0.10.2",
     "framer-motion": "^11.11.9",
-    "next": "14.2.15",
-    "react": "^18",
-    "react-dom": "^18",
+    "next": "^14.2.15",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "react-hot-toast": "^2.4.1",
     "react-particles": "^2.12.2",
     "tsparticles-slim": "^2.12.0",
     "typewriter-effect": "^2.21.0"
   },
   "devDependencies": {
+    "@babel/eslint-parser": "^7.25.8",
+    "@babel/preset-env": "^7.25.8",
+    "@babel/preset-react": "^7.25.7",
     "autoprefixer": "^10.4.20",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.15",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^8.57.1",
+    "eslint-config-next": "^14.2.15",
     "postcss": "^8.4.47",
     "tailwindcss": "^3.4.14"
   }

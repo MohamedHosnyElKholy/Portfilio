@@ -1,5 +1,5 @@
 "use client"; // تأكد من وضعها في أعلى الملف
-import ParticlesComponent from "../ParticlesComponent";
+import ParticlesComponent from "../../Components/ParticlesComponent";
 import Image from "next/image"; // استخدم Image من Next.js
 import imageOne from '../../assests/305911655_1281327379336317_5074921059612691428_n.jpg';
 import Typewriter from 'typewriter-effect';
