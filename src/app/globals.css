@@ -44,3 +44,7 @@ body {
   color: white; /* لون النص عند التمرير */
   padding: 12px 18px; /* حشوة أكبر عند التمرير */
 }
+
+nav{
+  background-color: black !important;
+}
